@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register</title>
+</head>
+<body>
+	<center>
+		<h1>Register Here</h1>
+		<form action="" method="post">
+			<table>
+				<tr>
+					<td>Name : </td>
+					<td><input type="text" name="name" placeholder="Enter Name Here"></td>
+				</tr>
+
+				<tr>
+					<td>Email ID : </td>
+					<td><input type="text" name="mail" placeholder="Enter Email Here"></td>
+				</tr>
+
+				<tr>
+					<td>Gender : </td>
+					<td>
+						<input type="radio" name="gender">Male
+						<input type="radio" name="gender">Female
+						<input type="radio" name="gender">Other
+					</td>
+				</tr>	
+
+				<tr>
+					<td>Mobile No. : </td>
+					<td>
+						 <select name="country_code">
+							<option value="+91">+91</option>
+							<option value="+255">+255</option>
+							<option value="+256">+256</option>
+							<option value="+257">+257</option>
+							<option value="+258">+258</option>
+						</select>
+						<input type="phone" name="mob_digits" placeholder="86******">
+					</td>
+				</tr>
+
+				<tr>
+					<td>College : </td>
+					<td>
+						<select name="college" id="college">
+							<option value="YC">YC College,Karad</option>
+							<option value="SGM">SGM College,Karad</option>
+							<option value="FC">Fergusson College,Pune</option>
+							<option value="Aher">Aher College,Karad</option>
+						</select>	
+					</td>
+				</tr>
+
+				<tr>
+					<td>Hobbies : </td>
+					<td>
+						<input type="checkbox" name="H1" id="H1" value="h1">
+						<label for="Reading">Reading</label>
+						<input type="checkbox" name="H2" id="H2" value="h2">
+						<label for="Vloging">Vloging</label>
+						<input type="checkbox" name="H3" id="H3" value="h3">
+						<label for="Travelling">Travelling</label>
+						<input type="checkbox" name="H4" id="H4" value="h4">
+						<label for="Other">Other</label>
+					</td>
+				</tr>
+
+				<tr>
+					<td><input type="submit" value="Submit" name="Submit"></td>
+					<td>Already A User? <a href="login.htm">Login Here</a></td>
+				</tr>
+			</table>	
+		</form>
+	</center>
+</body>
+</html>
